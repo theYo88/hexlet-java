@@ -27,3 +27,6 @@
 /.classpath
 /.project
 /.settings/
+
+# Игнорировать системные файлы MacOS
+.DS_Store
