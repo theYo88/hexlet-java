@@ -1,5 +1,29 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-*.class
 .idea/workspace.xml
+
+# Игнорировать build директорию в проекте hexlet-gradle-project
+/hexlet-gradle-project/build/
+
+# Игнорировать скомпилированные class файлы
+*.class
+
+# Игнорировать Gradle Wrapper файлы
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+
+# Игнорировать файлы и директории IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Игнорировать лог файлы
+*.log
+
+# Игнорировать временные файлы
+*.tmp
+
+# Игнорировать файлы и директории Eclipse
+/.classpath
+/.project
+/.settings/
